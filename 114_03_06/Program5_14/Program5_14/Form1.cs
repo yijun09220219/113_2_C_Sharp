@@ -34,7 +34,8 @@ namespace Program5_14
                     sum += temp;
                     listBox1.Items.Add(temp);
                 }
-                listBox1.Items.Add("總共有"+count+"個數字\n總和:" + sum);
+                listBox1.Items.Add("總共有"+count+"個數字");
+                listBox1.Items.Add("總和為" + sum);
                 inputFile.Close();
             }
             catch (Exception ex)
